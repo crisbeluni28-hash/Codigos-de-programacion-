@@ -58,7 +58,7 @@ class SimuladorUrbano(base_de_datos):
         print()
 
     def buscar_matriz(self, objeto):
-        print(f"🔎 [BÚSQUEDA LINEAL] Buscando intersección con {objeto} vehículos en la matriz...")
+        print(f"Buscando intersección con {objeto} vehículos en la matriz...")
         encontrado = False
         for posx, row in enumerate(self.matriz):
             for posy, value in enumerate(row):
